@@ -1,0 +1,3 @@
+# Python pakages required for main.py
+
+ffmpeg-python
