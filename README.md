@@ -29,7 +29,11 @@ filename.extension - nn.nn Mbps
 
 ## UX Example
 ![image](https://user-images.githubusercontent.com/39693451/135867110-0989ee02-5916-4389-a6fa-7898ec263fc5.png)
-
+  
+  I.Listing user experience
+  II. Drag & Drop support (Multi path support)
+  III. Each column can be moved by users.
+  IV. Customizible 'Target bps'formula.
 
 ## Current Status
 
