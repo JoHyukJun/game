@@ -27,13 +27,15 @@ filename.extension - nn.nn Mbps
 
 3) *만약 Target Bitrates계산값>기존 Bitrates면 기존값으로 출력
 
-## UX Example
-![image](https://user-images.githubusercontent.com/39693451/135867110-0989ee02-5916-4389-a6fa-7898ec263fc5.png)
-  
+## UX 
+
   I.Listing user experience
   II. Drag & Drop support (Multi path support)
   III. Each column can be moved by users.
   IV. Customizible 'Target bps'formula.
+
+![image](https://user-images.githubusercontent.com/39693451/135867110-0989ee02-5916-4389-a6fa-7898ec263fc5.png)
+  
 
 ## Current Status
 
