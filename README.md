@@ -24,3 +24,6 @@ filename.extension - nn.nn Mbps
 *query1=Width, query2=Height, query3=fps
 
 2) 1번에 계산된 ’@kbps@#pineapple video.webm' 으로 (각)파일명 변경
+
+## UX Example
+![image](https://user-images.githubusercontent.com/39693451/135867110-0989ee02-5916-4389-a6fa-7898ec263fc5.png)
