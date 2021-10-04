@@ -1,5 +1,5 @@
 # fineapple
-## Author: JO HYUK JUN
+## Author: JO HYUK JUN, LEE JUN HO
 #
 ## Specifications
 
@@ -27,3 +27,9 @@ filename.extension - nn.nn Mbps
 
 ## UX Example
 ![image](https://user-images.githubusercontent.com/39693451/135867110-0989ee02-5916-4389-a6fa-7898ec263fc5.png)
+
+
+## Current Status
+
+![image](https://user-images.githubusercontent.com/39693451/135867288-fffb2119-ef16-4b84-a302-1efe53241cc6.png)
+
