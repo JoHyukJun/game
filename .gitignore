@@ -131,3 +131,17 @@ dist
 
 # OSX
 .DS_Store
+
+# Coverage directory used by tools like istanbul
+coverage
+.eslintcache
+
+release/app/dist
+release/build
+.erb/dll
+
+.idea
+npm-debug.log.*
+*.css.d.ts
+*.sass.d.ts
+*.scss.d.ts
