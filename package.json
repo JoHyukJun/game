@@ -213,12 +213,12 @@
     ],
     "publish": {
       "provider": "github",
-      "owner": "electron-react-boilerplate",
-      "repo": "electron-react-boilerplate"
+      "owner": "JoHyukJun",
+      "repo": "finerate"
     }
   },
   "collective": {
-    "url": "https://opencollective.com/electron-react-boilerplate-594"
+    "url": "https://unluckystrike.com"
   },
   "devEngines": {
     "node": ">=14.x",
