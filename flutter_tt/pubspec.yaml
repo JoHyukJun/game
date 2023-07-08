@@ -67,7 +67,7 @@ flutter:
   assets:
    - assets/images/
   fonts:
-    - family: SF-Pro-Display
+    - family: SF Pro Display
       fonts:
         - asset: assets/fonts/SF-Pro-Display-Regular.otf
         - asset: assets/fonts/SF-Pro-Display-RegularItalic.otf
