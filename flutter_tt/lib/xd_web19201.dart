@@ -6,7 +6,7 @@ import './xd_component61.dart';
 
 class XDWeb19201 extends StatelessWidget {
   XDWeb19201({
-    Key key,
+    Key? key,
   }) : super(key: key);
   @override
   Widget build(BuildContext context) {
