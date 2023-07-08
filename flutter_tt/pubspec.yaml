@@ -39,6 +39,7 @@ dependencies:
   file_picker: ^5.3.2
   logger: ^1.4.0
   xml: ^6.3.0
+  adobe_xd: ^2.0.1
 
 dev_dependencies:
   flutter_test:
