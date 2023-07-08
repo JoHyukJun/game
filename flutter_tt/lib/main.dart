@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
 
 import 'package:file_picker/file_picker.dart';
-import 'package:flutter_tt/parser.dart';
+
+import 'package:nfo_gen/parser.dart';
 import 'package:logger/logger.dart';
 import 'dart:developer';
 import 'dart:async';
