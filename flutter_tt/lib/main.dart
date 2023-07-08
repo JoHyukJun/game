@@ -1,5 +1,22 @@
 import 'package:flutter/material.dart';
 
+import 'package:file_picker/file_picker.dart';
+import 'package:flutter_tt/parser.dart';
+import 'package:logger/logger.dart';
+import 'dart:developer';
+import 'dart:async';
+import 'dart:io';
+import 'package:xml/xml.dart';
+
+
+var logger = Logger(
+  printer: PrettyPrinter(),
+);
+
+var loggerNoStack = Logger(
+  printer: PrettyPrinter(methodCount: 0),
+);
+
 void main() {
   runApp(const MyApp());
 }
@@ -56,6 +73,7 @@ class MyHomePage extends StatefulWidget {
 
 class _MyHomePageState extends State<MyHomePage> {
   int _counter = 0;
+  var j_parser = NfoParser();
 
   void _incrementCounter() {
     setState(() {
@@ -117,7 +135,7 @@ class _MyHomePageState extends State<MyHomePage> {
       ),
       floatingActionButton: FloatingActionButton(
         onPressed: _incrementCounter,
-        tooltip: 'Increment',
+        tooltip: 'files',
         child: const Icon(Icons.add),
       ), // This trailing comma makes auto-formatting nicer for build methods.
     );
