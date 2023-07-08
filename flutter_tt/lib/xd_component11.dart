@@ -15,10 +15,11 @@ class XDComponent11 extends StatelessWidget {
           ),
         ),
         Center(
-          child: SizedBox(
+          child: ElevatedButton (
+            child: SizedBox(
             width: 274.0,
             height: 133.0,
-            child: Text(
+              child: Text(
               'World',
               style: TextStyle(
                 fontFamily: 'SF Pro Display',
@@ -27,8 +28,10 @@ class XDComponent11 extends StatelessWidget {
               ),
               softWrap: false,
             ),
+            ),
+            onPressed: () {},
           ),
-        ),
+          ),
       ],
     );
   }
