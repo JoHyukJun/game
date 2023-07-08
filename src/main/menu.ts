@@ -1,10 +1,14 @@
+/* eslint-disable promise/always-return */
 import {
   app,
   Menu,
   shell,
   BrowserWindow,
   MenuItemConstructorOptions,
+  dialog,
 } from 'electron';
+
+import path from 'path';
 
 interface DarwinMenuItemConstructorOptions extends MenuItemConstructorOptions {
   selector?: string;
@@ -200,6 +204,18 @@ export default class MenuBuilder {
           {
             label: '&Open',
             accelerator: 'Ctrl+O',
+            click: () => {
+              dialog.showOpenDialog({properties: ['openFile', 'openDirectory']}).then(res => {
+                if (!res.canceled) {
+                  console.log(res.filePaths);
+                }
+                else {
+                  console.log("no file selected")
+                }
+              }).catch(error => {
+                console.log(error);
+              });
+            },
           },
           {
             label: '&Close',

@@ -13,6 +13,7 @@ module.exports = {
     project: './tsconfig.json',
     tsconfigRootDir: __dirname,
     createDefaultProgram: true,
+    ignoreLastCallback: true,
   },
   settings: {
     'import/resolver': {
