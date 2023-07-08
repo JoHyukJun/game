@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 
 class XDComponent11 extends StatelessWidget {
   XDComponent11({
-    Key key,
+    Key? key,
   }) : super(key: key);
   @override
   Widget build(BuildContext context) {

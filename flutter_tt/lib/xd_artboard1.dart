@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 
 class XDArtboard1 extends StatelessWidget {
   XDArtboard1({
-    Key key,
+    Key? key,
   }) : super(key: key);
   @override
   Widget build(BuildContext context) {
