@@ -11,6 +11,7 @@
 		625AEEA22AA1E93C0089DC97 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 625AEEA12AA1E93C0089DC97 /* ContentView.swift */; };
 		625AEEA42AA1E93D0089DC97 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 625AEEA32AA1E93D0089DC97 /* Assets.xcassets */; };
 		625AEEA72AA1E93D0089DC97 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 625AEEA62AA1E93D0089DC97 /* Preview Assets.xcassets */; };
+		626BE9362AA2036800197B17 /* data_obj.swift in Sources */ = {isa = PBXBuildFile; fileRef = 626BE9352AA2036800197B17 /* data_obj.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		625AEEA32AA1E93D0089DC97 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		625AEEA62AA1E93D0089DC97 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		625AEEA82AA1E93D0089DC97 /* nfo_gen.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = nfo_gen.entitlements; sourceTree = "<group>"; };
+		626BE9352AA2036800197B17 /* data_obj.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = data_obj.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 			children = (
 				625AEE9F2AA1E93C0089DC97 /* nfo_genApp.swift */,
 				625AEEA12AA1E93C0089DC97 /* ContentView.swift */,
+				626BE9352AA2036800197B17 /* data_obj.swift */,
 				625AEEA32AA1E93D0089DC97 /* Assets.xcassets */,
 				625AEEA82AA1E93D0089DC97 /* nfo_gen.entitlements */,
 				625AEEA52AA1E93D0089DC97 /* Preview Content */,
@@ -140,6 +143,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				625AEEA22AA1E93C0089DC97 /* ContentView.swift in Sources */,
+				626BE9362AA2036800197B17 /* data_obj.swift in Sources */,
 				625AEEA02AA1E93C0089DC97 /* nfo_genApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
