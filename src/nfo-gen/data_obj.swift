@@ -13,7 +13,7 @@ struct TestData: Identifiable {
     let id = UUID()
     let t1: String
     let t2: String
-    let t3: String?
+    let t3: String
 }
 
 
