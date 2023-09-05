@@ -35,15 +35,9 @@ struct ContentView: View {
         .padding()
         
         Table(tableData) {
-            TableColumn("t1") {
-                Text($0.t1)
-            }
-            TableColumn("t2") {
-                Text($0.t2)
-            }
-            TableColumn("t3") {
-                Text($0.t3 ?? "")
-            }
+            TableColumn("t1", value: \.t1)
+            TableColumn("t2", value: \.t2)
+            TableColumn("t3", value: \.t3)
         }
     }
 }
